@@ -255,7 +255,7 @@ namespace NAOServerChat
             foreach (StateObject state in socketList)
             {
                 Socket socketHandler = state.workSocket;
-                if (SocketConnected(socketHandler) && socketHandler != handler)
+                if (SocketConnected(socketHandler))
                 {
                     // Begin sending the data to the remote device.
                     try
@@ -277,7 +277,7 @@ namespace NAOServerChat
                         socketHandler.Shutdown(SocketShutdown.Both);
                         socketHandler.Close();
                     }
-                    
+
                 }
 
             }

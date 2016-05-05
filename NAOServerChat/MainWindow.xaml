@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:NAOServerChat"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525" Background="#FFFFC107">
+         Height="350" Width="525" Background="#FFFFC107">
     <Grid x:Name="mainGrid">
         <Grid.RowDefinitions>
             <RowDefinition Height="40"/>
